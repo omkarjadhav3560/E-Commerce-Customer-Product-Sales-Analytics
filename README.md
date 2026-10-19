@@ -31,6 +31,29 @@ Tracks revenue, discounts, shipping costs, order values, quantities, payment met
 
 
 Combines key observations from the customer, product, and sales dashboards.
+## 📊 Dashboard Preview
+
+### Customer Analysis Dashboard
+
+![E-Commerce Customer Analysis Dashboard](Customer%20Analysis%20Dashboard.png)
+
+---
+
+### Product Analysis Dashboard
+
+![E-Commerce Product Analysis Dashboard](Product%20Analysis%20Dashboard.png)
+
+---
+
+### Sales Analysis Dashboard
+
+![E-Commerce Sales Analysis Dashboard](Sales%20Analysis%20Dashboard.png)
+
+---
+
+### Summary Dashboard
+
+![E-Commerce Summary Dashboard](Summary.png)
 
 🎯 Project Objectives
 
