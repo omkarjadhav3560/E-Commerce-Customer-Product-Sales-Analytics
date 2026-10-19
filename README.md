@@ -1,260 +1,303 @@
-# 🛒 E-Commerce Customer, Product & Sales Analytics
+🛒 E-Commerce Customer, Product & Sales Analytics
 
-## 📊 Project Overview
+An interactive Power BI dashboard project built to analyze e-commerce customer behavior, product performance, and sales trends using customer, product, and sales data.
 
-This project is an **E-Commerce Customer, Product & Sales Analytics** designed to analyze customer behavior, product performance, and sales trends.
+The project transforms raw data into four dashboard pages: Customer Analysis, Product Analysis, Sales Analysis, and Summary.
+
+📊 Dashboard Preview
+
+The screenshots below are stored in the repository root. These image links use the exact filenames shown in your GitHub file list.
+
+1. Customer Analysis Dashboard
+
+
+
+Analyzes customer demographics, spending behavior, customer tiers, registration trends, and customer locations.
+
+2. Product Analysis Dashboard
+
+
+
+Analyzes product categories, brands, ratings, pricing, discounts, inventory, and product sales performance.
+
+3. Sales Analysis Dashboard
+
+
+
+Tracks revenue, discounts, shipping costs, order values, quantities, payment methods, order statuses, and sales trends.
+
+4. Summary Dashboard
+
+
+
+Combines key observations from the customer, product, and sales dashboards.
+
+🎯 Project Objectives
+
+Analyze customer demographics and purchasing behavior.
+
+Identify high-value customer segments.
+
+Evaluate product, category, and brand performance.
+
+Review inventory levels, ratings, prices, and discounts.
+
+Track sales and revenue trends over time and across locations.
+
+Analyze payment methods and order statuses.
+
+Identify top-performing customers and products.
+
+Present business-oriented findings through interactive Power BI dashboards.
+
+📁 Dataset
 
 The project uses three CSV datasets:
 
-- `customers.csv`
-- `products.csv`
-- `sales.csv`
+customers.csv — customer demographics, location, customer tier, registration, orders, and spending.
 
-The dashboards were created to transform raw e-commerce data into interactive business insights that can help understand:
+products.csv — product category, brand, rating, price, discount, stock, and product details.
 
-- Customer demographics and spending behavior
-- Product and brand performance
-- Sales trends and revenue distribution
-- Customer and product segments
-- Payment methods and order statuses
-- Inventory and product ratings
+sales.csv — transactions, sales amount, quantity, payment method, order status, and related sales information.
 
----
+Note: Ensure all three CSV files are included in the repository if you want others to refresh and explore the report.
 
-## 🎯 Project Objectives
+📈 Dashboard Pages
 
-The main objectives of this project are:
+1. Customer Analysis Dashboard
 
-1. Analyze customer demographics and purchasing behavior.
-2. Identify high-value customer segments.
-3. Analyze product sales and inventory performance.
-4. Compare brands and product categories.
-5. Track overall sales and revenue trends.
-6. Analyze payment methods and order statuses.
-7. Identify top-performing products and customers.
-8. Generate actionable business insights from the data.
+Key metrics
 
----
+Total Customers: 39.115K
 
-## 📁 Dataset
+Total Orders: 244K
 
-The project contains three main datasets.
+Total Spending: ₹4,63,93,27,069.20
 
-### 1. `customers.csv`
+Average Customer Spending: ₹118.61K
 
-Contains customer-related information used for customer analysis.
+Visualizations
 
-The dataset is used to analyze:
+Customers by age group
 
-- Customer demographics
-- Age groups
-- Gender
-- Location
-- Customer tier
-- Registration trends
-- Customer spending
+Total spending by customer tier
 
-### 2. `products.csv`
+Customer registration trend
 
-Contains product-related information.
+Customers by city, state, gender, and tier
 
-It is used to analyze:
+Top customers by spending
 
-- Product categories
-- Brands
-- Product ratings
-- Product prices
-- Discounts
-- Stock quantity
-- Product sales
-- Product performance
+Key observations
 
-### 3. `sales.csv`
+Platinum customers have the highest spending.
 
-Contains transaction and sales information.
+The 26–35 age group has the highest customer count.
 
-It is used to analyze:
+Uttar Pradesh (UP) has the highest customer count.
 
-- Total sales
-- Order quantity
-- Order value
-- Payment methods
-- Order status
-- Sales by state
-- Sales by category
-- Sales by brand
-- Monthly sales trends
-- Top-selling products
+Aditya Yadav is displayed as the highest-spending customer.
 
----
+2. Product Analysis Dashboard
 
-# 📈 Dashboard Pages
+Key metrics
 
-The project contains four major dashboard sections.
+Total Products: 2K
 
-## 1. Customer Analysis Dashboard
+Total Stocks: 2K
 
-The Customer Analysis Dashboard provides insights into customer demographics and spending behavior.
+Total Categories: 7
 
-### Key Metrics
+Total Brands: 33
 
-- Total Customers: **39.115K**
-- Total Orders: **244K**
-- Total Spending: **₹4,63,93,27,069.20**
-- Average Customer Spending: **₹118.61K**
+Average Rating: 4.40
 
-### Key Visualizations
+Average Selling Price: ₹2.00K
 
-- Customers by Age Group
-- Total Spending by Customer Tier
-- Customer Registration Trend
-- Customers by City
-- Customers by Customer Tier
-- Customers by State
-- Customers by Gender
-- Top Customers by Spending
+Visualizations
 
-### Key Insights
-
-- Platinum customers have the highest spending.
-- The **26–35** age group has the highest number of customers.
-- **Uttar Pradesh (UP)** has the highest customer count.
-- Aditya Yadav is shown as the highest-spending customer in the dashboard.
+Stock by category
 
----
+Sales by brand and category
 
-## 2. Product Analysis Dashboard
+Discount analysis
 
-The Product Analysis Dashboard focuses on product sales, inventory, brands, categories, pricing, and ratings.
+Quantity sold by product
 
-### Key Metrics
+Original price vs. selling price
 
-- Total Products: **2K**
-- Total Stocks: **2K**
-- Total Categories: **7**
-- Total Brands: **33**
-- Average Rating: **4.40**
-- Average Selling Price: **₹2.00K**
+Top 10 products by sales
 
-### Key Visualizations
+Product rating analysis
 
-- Stock by Category
-- Sales by Brand
-- Discount Analysis
-- Quantity Sold by Product
-- Original Price vs Selling Price
-- Total Sales by Category
-- Top 10 Products by Sales
-- Product Rating Analysis
-- Brand Performance by Sales
-- Best-Selling Products
-- Highest-Rated Products
-- Products Needing Attention
+Best-selling and highest-rated products
 
-### Key Insights
+Products needing attention
 
-- Electronics is the highest-sales category, with approximately **₹4.35B** in sales.
-- HP is shown as the highest-performing brand by sales.
-- Noise Watch V1 is shown as the best-selling product.
-- Stationery Set V5 is shown as one of the highest-rated products.
-- Comics V3 and Lays Chips V6 have low stock levels and require inventory monitoring.
+Key observations
 
----
+Electronics is the highest-sales category, with approximately ₹4.35B in sales.
 
-## 3. Sales Analysis Dashboard
+HP is displayed as the highest-performing brand by sales.
 
-The Sales Analysis Dashboard provides an overview of business sales and transaction performance.
+Noise Watch V1 is displayed as the best-selling product.
 
-### Key Metrics
+Stationery Set V5 is among the highest-rated products.
 
-- Total Sales: **₹5.99B**
-- Total Discount: **₹62.50M**
-- Shipping Cost: **₹1.23M**
-- Average Order Value: **₹23.97K**
-- Total Quantity Sold: **312K**
-- Total Orders: **250K**
+Comics V3 and Lays Chips V6 have low stock levels and may need inventory monitoring.
 
-### Key Visualizations
+3. Sales Analysis Dashboard
 
-- Sales by State
-- Sales by Customer Tier
-- Sales by Year / Month
-- Sales by Category
-- Sales by Brand
-- Top 10 Customers by Sales
-- Top 10 Products by Sales
-- Payment Mode Analysis
-- Order Status Analysis
-- Sales Trend
+Key metrics
 
-### Key Insights
+Total Sales: ₹5.99B
 
-- March 2026 is shown as the highest sales month.
-- Uttar Pradesh has the highest revenue among the displayed states.
-- UPI is the most-used payment method.
-- Delivered orders represent the largest order-status segment.
-- Noise Watch V1, Samsung Mobile V4, and boAt Headphones V8 are among the top products by sales.
+Total Discount: ₹62.50M
 
----
+Shipping Cost: ₹1.23M
 
-# 📌 Summary Dashboard
+Average Order Value: ₹23.97K
 
-The Summary page combines the major findings from the Customer, Product, and Sales dashboards.
+Total Quantity Sold: 312K
 
-### Customer Insights
+Total Orders: 250K
 
-- Platinum customers have the highest spending.
-- Customers aged 26–35 represent the largest customer age group.
-- Uttar Pradesh has the highest customer count.
-- Aditya Yadav is shown as the highest-spending customer.
+Visualizations
 
-### Product Insights
+Sales by state and customer tier
 
-- Electronics is the highest-sales category.
-- HP is the highest-performing brand by sales in the dashboard.
-- Noise Watch V1 is the top-selling product.
-- Stationery Set V5 is among the highest-rated products.
-- Some products have low inventory and require monitoring.
+Sales by year and month
 
-### Sales Insights
+Sales by category and brand
 
-- March 2026 has the highest monthly sales in the dashboard.
-- Uttar Pradesh has the highest displayed revenue by state.
-- UPI is the most-used payment method.
-- Delivered orders represent the largest order-status segment.
-- Noise Watch V1, Samsung Mobile V4, and boAt Headphones V8 are among the top-selling products.
+Top 10 customers and products by sales
 
----
+Payment mode analysis
 
-# 🛠️ Tools & Technologies
+Order status analysis
 
-The project uses:
+Sales trend
 
-- **Power BI** – Dashboard development and data visualization
-- **CSV** – Data storage
-- **Power Query** – Data cleaning and transformation
-- **DAX** – Calculated measures and analytical calculations
-- **Data Visualization** – Interactive charts, KPIs, slicers, and tables
+Key observations
 
----
+March 2026 is displayed as the highest-sales month.
 
-# 📂 Project Structure
+Uttar Pradesh has the highest displayed revenue by state.
 
-```text
-E-Commerce-Analytics/
+UPI is the most-used payment method.
+
+Delivered orders form the largest order-status segment.
+
+Noise Watch V1, Samsung Mobile V4, and boAt Headphones V8 are among the top products by sales.
+
+4. Summary Dashboard
+
+The Summary page brings together the main observations:
+
+Customers: Platinum customers lead spending; ages 26–35 form the largest customer group; Uttar Pradesh leads customer count.
+
+Products: Electronics leads sales; HP leads brand sales; Noise Watch V1 is shown as the top-selling product; some products have low stock.
+
+Sales: March 2026 leads monthly sales; Uttar Pradesh leads displayed state revenue; UPI is the most-used payment method; delivered orders are the largest status segment.
+
+These are observations reported by the dashboards and may change when report filters or slicers are applied.
+
+🛠️ Tools & Technologies
+
+Power BI Desktop — dashboard development and visualization
+
+CSV — source data
+
+Power Query — data cleaning and transformation
+
+DAX — measures and analytical calculations
+
+Power BI visuals and slicers — interactive reporting
+
+🔄 Analytical Workflow
+
+CSV Source Data
+      ↓
+Import into Power BI
+      ↓
+Data Inspection & Preparation (Power Query)
+      ↓
+Data Model & Relationships
+      ↓
+DAX Measures / Calculations
+      ↓
+Charts, Cards & Interactive Filters
+      ↓
+Customer, Product, Sales & Summary Dashboards
+      ↓
+Business Observations
+
+💡 Business Questions Addressed
+
+Which customer segments spend the most?
+
+Which age group and locations have the most customers?
+
+How do customer registrations change over time?
+
+Which product categories and brands generate the most sales?
+
+Which products sell the most and receive the highest ratings?
+
+Which products have low stock and may need replenishment?
+
+How do sales change month by month?
+
+Which states contribute the most revenue?
+
+Which payment methods are most commonly used?
+
+What is the distribution of order statuses?
+
+📂 Project Structure
+
+Based on the files shown in your GitHub repository:
+
+E-Commerce-Customer-Product-Sales-Analytics/
 │
-├── data/
-│   ├── customers.csv
-│   ├── products.csv
-│   └── sales.csv
-│
-├── dashboard/
-│   └── E-Commerce-Analysis.pbix
-│
-├── screenshots/
-│   ├── Customer Analysis Dashboard.png
-│   ├── Product Analysis Dashboard.png
-│   ├── Sales Analysis Dashboard.png
-│   └── Summary.png
-│
+├── Customer Analysis Dashboard.png
+├── Product Analysis Dashboard.png
+├── Sales Analysis Dashboard.png
+├── Summary.png
+├── customers - customers.csv
+├── products - products.csv
 └── README.md
+
+If you add the sales CSV and Power BI report, include them in this structure as well. Your current screenshot shows the dashboard images and customer/product CSV files; it does not show sales.csv or the .pbix report.
+
+🚀 How to View
+
+Open the dashboard screenshots in this repository to view the report pages.
+
+To interact with the report, add the Power BI .pbix file to the repository or share it separately.
+
+To refresh the report, include the required CSV source files and update their paths in Power BI as needed.
+
+🧠 Skills Demonstrated
+
+Data preparation with Power Query
+
+Data modeling in Power BI
+
+DAX calculations and measures
+
+Customer behavior analysis
+
+Product and inventory analysis
+
+Sales and revenue analysis
+
+Interactive dashboard design
+
+Data visualization
+
+Communicating business observations
+
+📝 Conclusion
+
+This project combines customer, product, and sales data in Power BI to explore e-commerce behavior, product performance, and sales trends. Its four dashboard pages present an interactive, business-oriented view of the data and help identify patterns relevant to customer, sales, and inventory decisions.
